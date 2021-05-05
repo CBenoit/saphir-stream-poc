@@ -1,0 +1,14 @@
+[package]
+name = "saphir-stream-poc"
+version = "0.1.0"
+authors = ["Benoît CORTIER <benoit.cortier@fried-world.eu>"]
+edition = "2018"
+
+[dependencies]
+saphir = "2.8"
+hyper = { version = "0.13" }
+tokio = { version = "0.2", features = ["full"] }
+futures = "0.3"
+env_logger = "0.8"
+log = "0.4"
+
